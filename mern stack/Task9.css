@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.box1{
+    position: relative;
+    margin: 7px;
+    width: 20px;
+    height: 35px;
+    border-top-right-radius: 5px;
+    background: #3f905b;
+    float: left;
+    transition: 2ms;
+}
+
+.box1:hover {
+    left: 10px;
+}
+
+
+.box2{
+    position: relative;
+    width: 20px;
+    height: 35px;
+    border-top-right-radius: 5px;
+    background: #1096cf;
+    float: left;
+    transition: 2ms;
+}
+
+.container .box2:hover {
+    left: 10px;
+}
+
+
+.container .box3{
+    position: relative;
+    width: 20px;
+    height: 35px;
+    border-top-right-radius: 5px;
+    background: #e23936;
+    float: left;
+    transition: 2ms;
+}
+
+ .box3:hover {
+    left: 10px;
+}
+
+
+ .box4{
+    position: relative;
+    width: 20px;
+    height: 35px;
+    border-top-right-radius: 5px;
+    background: #414341;
+    float: left;
+    transition: 2ms;
+}
+
+.box4:hover {
+    left: 10px;
+}

@@ -1,0 +1,15 @@
+/* styles.css */
+table {
+    width: 90%;
+    background-color:  #048484;
+}
+
+table, th, td {
+    border: 1px solid blueviolet;
+    border-radius: 10px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}

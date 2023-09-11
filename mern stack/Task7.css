@@ -1,0 +1,19 @@
+table{
+    border: "1";
+}
+
+table, th, td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 0% ;
+}
+
+td {
+    text-align: center;
+    padding: 0%;
+}
+
+h1{
+    color: white;
+    background-color: orange;
+}

@@ -1,0 +1,86 @@
+* {
+    margin: 0
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 50px auto;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .registartion-form {
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    background-color: rgb(221, 221, 221);
+    padding: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    justify-content: space-between;
+    width:450px;
+  }
+
+  .registartion-form label{
+    flex-basis: 30%;
+    align-content: flex-end;
+    text-align: end;
+  }
+  
+  .registartion-form input[type="text"],
+.registartion-form input[type="email"],
+.registartion-form input[type="number"],
+.registartion-form textarea {
+    padding: 20px;
+    padding-left: 45px;
+    background: no-repeat left center;
+    background-size: auto 100%;
+    background: white;
+    border: 1px solid rgb(190, 190, 190);
+    width: 100%;
+    border-radius: 5px;
+}
+
+.registartion-form select {
+  padding: 20px;
+  background: no-repeat left center;
+  background-size: auto 100%;
+  background: white;
+  border: 1px solid rgb(190, 190, 190);
+  width: 127.5%;
+  padding-left: 45px;
+  border-radius: 5px;
+}
+
+
+
+
+  .registartion-form [class^="fa-"] {
+    position: absolute;
+    height: 100%;
+    padding-left: 15px;
+    padding-top: 20px;
+    pointer-events: none;
+    color: #555;
+}
+
+button{
+  background: #f0ad10;
+  border: 0;
+  color: white;
+  padding: 10px;
+  padding-right: 27px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button i.fa-regular.fa-paper-plane{
+  position: absolute;
+  margin: 0;
+  padding-left: 5px;
+  padding-top: 0;
+  color: white;
+}

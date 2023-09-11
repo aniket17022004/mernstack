@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Bootstrap Example</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body>
+    <div class="formarea" style="margin: 100px auto; width: 400px; background-color: rgb(234, 234, 234); padding: 20px; border-radius: 5px;">
+    <form class="row g-3">
+      <div class="col-12">
+        <label for="validationServer01" class="form-label">Name</label>
+        <input type="text" class="form-control is-invalid" id="validationServer01" value="" required="">
+        <div class="invalid-feedback">
+            Name is required
+          </div>
+      </div>
+      <div class="col-12">
+        <label for="validationServer02" class="form-label">Email</label>
+        <input type="email" class="form-control is-invalid" id="validationServer02" value="" required="">
+        <div class="invalid-feedback">
+            Email is required
+          </div>
+      </div>
+      <div class="col-12">
+        <label for="validationServer03" class="form-label">Password</label>
+        <input type="password" class="form-control is-invalid" id="validationServer03" value="" required="">
+        <div class="invalid-feedback">
+            Password is required
+          </div>
+      </div>
+      <div class="col-12">
+        <label for="validationServer04" class="form-label">Hobbies</label>
+        <select name="hobies" class="form-select" id="validationServer04">
+            <option value=""></option>
+            <option value="football">Football</option>
+            <option value="basketball">Basketball</option>
+            <option value="cricket">Cricket</option>
+            <option value="badminton">Badminton</option>
+        </select>
+      </div>
+      <div class="col-12">
+        <button class="btn btn-primary" type="submit" style="width: 100%; border:0; background-color: rgb(242, 76, 76);">Submit</button>
+      </div>
+    </form>
+  </div>
+  </body>
+</html>

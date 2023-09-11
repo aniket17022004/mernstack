@@ -1,0 +1,62 @@
+.grid{
+    width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px,1fr));
+    grid-gap: 40px ;
+    margin-top: 50px;
+    padding-bottom: 70px;
+}
+
+.grid div{
+    height: 50vh;
+    background: #ffffff;
+    font-size: 13px;
+    font-weight: 300;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
+    padding: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.grid div img{
+    width: 100%;
+    height: 150px;
+    border-top-left-radius:  3px;
+    border-top-right-radius:  3px;
+    display: block;
+}
+
+.grid div h1 {
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 70;
+    font-size: 30px;
+    left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.grid div p{
+    text-align: center;
+    padding: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    box-shadow:  0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.grid div a{
+    text-decoration: none;
+    padding: 0 10px;
+    color: rgb(255, 204, 0);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-weight: 20;
+}
+
